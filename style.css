@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+h1 {
+    color: #008080;
+    font-size: 28px;
+}
+
+.countdown {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #ff4500;
+}
+
+.confirm-form {
+    margin-top: 20px;
+}
+
+.confirm-form input, .confirm-form button {
+    padding: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.confirm-form input {
+    width: 70%;
+    border: 1px solid #ccc;
+}
+
+.confirm-form button {
+    background: #008080;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.confirm-form button:hover {
+    background: #005f5f;
+}
+
+#confirmation {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #008000;
+}
